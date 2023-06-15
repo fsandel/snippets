@@ -1,0 +1,18 @@
+{
+  "Orthodox canonical class": {
+    "prefix": "occ",
+    "body": [
+      "class $1 {",
+      " public:",
+      "  $1();",
+      "  ~$1();",
+      "  $1(const $1 &obj);",
+      "  $1 operator=(const $1 &obj);",
+      "",
+      " private:",
+      "}",
+      ""
+    ],
+    "description": "A Template for a class in orthodox canonical form"
+  }
+}
