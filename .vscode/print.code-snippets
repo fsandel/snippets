@@ -1,0 +1,7 @@
+{
+  "Print to console": {
+    "prefix": "print",
+    "body": ["std::cout << \"$1\" << std::endl;"],
+    "description": "Print stuff to console"
+  } 
+}
