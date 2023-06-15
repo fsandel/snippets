@@ -10,7 +10,7 @@
       "  $1 operator=(const $1 &obj);",
       "",
       " private:",
-      "}",
+      "};",
       ""
     ],
     "description": "A Template for a class in orthodox canonical form"
