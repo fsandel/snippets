@@ -1,5 +1,6 @@
 {
   "Orthodox canonical class": {
+    "scope": "c, cpp, h, hpp, tpp",
     "prefix": "occ",
     "body": [
       "class $1 {",
@@ -13,6 +14,6 @@
       "};",
       ""
     ],
-    "description": "A Template for a class in orthodox canonical form"
+    "description": "Creates an empty class in orthodox canonical class format, respecting the Google Style Guide"
   }
 }

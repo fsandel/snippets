@@ -1,5 +1,6 @@
 {
   "Include Guard": {
+    "scope": "c, cpp, h, hpp, tpp",
     "prefix": "includeguard",
     "body": [
       "#ifndef ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_${TM_FILENAME/(.*\\.)(.*)/${2:/upcase}/}_",
@@ -10,6 +11,6 @@
       "#endif  // ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_${TM_FILENAME/(.*\\.)(.*)/${2:/upcase}/}_",
       ""
     ],
-    "description": "Adds include guards to the current file"
+    "description": "Adds include guards around the selection, regarding to the filename"
   }
 }

@@ -1,9 +1,10 @@
 {
   "Print to console": {
+    "scope": "c, cpp, h, hpp, tpp",
     "prefix": "print",
     "body": [
       "std::cout << \"$1\" << std::endl;"
     ],
-    "description": "Print stuff to console"
+    "description": "Creates an emtpy C++ print statement"
   }
 }
